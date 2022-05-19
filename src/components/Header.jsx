@@ -6,7 +6,7 @@ const Header = () => {
 		
   <input type="text" />
 		
-  <span className="add-button">Add</span>
+  <span className="search-button">Search</span>
 		
 </div>
     )

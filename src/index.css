@@ -1,8 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -114,8 +111,8 @@ input {
   font-size: 16px;
 }
 
-/* Style the "Add" button */
-.add-button {
+/* Style the "search" button */
+.search-button {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
@@ -128,6 +125,6 @@ input {
   border-radius: 0;
 }
 
-.add-button:hover {
+.search-button:hover {
   background-color: #bbb;
 }
