@@ -4,12 +4,12 @@ const ItemList = ({ data }) => {
     return ( 
         <ul id="todo-list">
         {
-            data.map(list => {
-                return <Item data={list} />
+            data.map((list, key) => {
+                return <Item key={key} data={list} />
             })
         }
         </ul>
     )
 }
 
-export default ItemList;
+export default ItemList
