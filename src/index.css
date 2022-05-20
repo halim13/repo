@@ -101,8 +101,8 @@ input {
   font-size: 16px;
 }
 
-/* Style the "search" button */
-.search-button {
+/* Style the "Add" button */
+.add-button {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
@@ -115,7 +115,7 @@ input {
   border-radius: 0;
 }
 
-.search-button:hover {
+.add-button:hover {
   background-color: #bbb;
 }
 
