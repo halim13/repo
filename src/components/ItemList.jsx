@@ -1,13 +1,15 @@
 import Item from './Item'
 
-const ItemList = () => {
+const ItemList = ({ data }) => {
     return ( 
         <ul id="todo-list">
-            <Item />
-            <Item />
-            <Item />
+        {
+            data.map(list => {
+                return <Item data={list} />
+            })
+        }
         </ul>
-    );
+    )
 }
- 
+
 export default ItemList;
